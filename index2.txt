@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PONNA BADMINTON CLUB</title>
+  <link rel="icon" type="image/png" href="logo ponna.png" />
+  <link rel="stylesheet" href="chagpt.css" />
+  <style>
+    /* Vos styles CSS peuvent être ajoutés ici */
+  </style>
+</head>
+<body>
+
+  <!-- Barre de navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo"><mark>PONNA BADMINTON CLUB</mark></h1>
+      <ul class="nav-links">
+        <li><a href="index.html">ACCUEIL</a></li>
+        <li><a href="apropos.html">À PROPOS</a></li>
+        <li><a href="planning.html">TARIFS</a></li>
+        <li><a href="contact.html">HORAIRES</a></li>
+        <li><a href="contact.html">LES GYMNASES</a></li>
+        <li><a href="contact.html">ENCADREMENT JEUNES</a></li>
+        <li><a href="contact.html">LES MEMBRES DU CA PMBC</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="contact.html">LIENS</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- En-tête -->
+  <header>
+    <center>
+      <table>
+        <tr>
+          <td>
+            <img src="Ville-de-Montivilliers-Logo-noir-fond-blanc (1).png" width="125" height="125" class="image-zoom" />
+          </td>
+          <td width="750" align="center">
+            <h1><mark><font size="+4">PONNA BADMINTON CLUB</font></mark></h1>
+            <h4>Saison 2024-2025</h4>
+          </td>
+          <td>
+            <img src="logo ponna.png" width="125" height="125" class="image-zoom" />
+          </td>
+        </tr>
+      </table>
+    </center>
+    <button class="bouton-style">
+      <p>UN CLUB, UNE AMBIANCE, UNE PASSION PARTAGÉE</p>
+    </button>
+  </header>
+
+  <!-- Présentation -->
+  <div class="conteneur">
+    <div class="presentation" style="text-align:left;">
+      <h3>
+        <fieldset>
+          <mark>Poona Montivilliers Badminton Club (PMBC)</mark>
+        </fieldset>
+      </h3>
+      <fieldset>
+        <p>Poona Montivilliers Badminton Club (PMBC) vous propose de nous rejoindre pour la pratique du badminton en loisir ou en compétition, à Montivilliers, en périphérie de la ville du Havre (Seine-Maritime 76).</p>
+        <p>Affilié à la FFBAD et de nouveau labellisé École de Badminton 3★ en 2023-2024, nous accueillons les jeunes à partir de 6 ans.</p>
+        <p>L’ambition première du Poona est de rester ce club convivial cher à tous, d’emmener nos jeunes vers les compétitions et de maintenir nos adultes dans les 3 divisions d’interclubs départementales.</p>
+        <p>En 2023-2024, Poona était représenté par 170 membres dont 80 jeunes.</p>
+        <p>Les nombreux créneaux nous permettent de pratiquer tous les jours de la semaine. Vous trouverez forcément le niveau et les amis pour échanger les plumes jusqu’à épuisement.</p>
+        <p style="text-align: right;"><strong>À très bientôt<br>L’équipe PMBC</strong></p>
+      </fieldset>
+    </div>
+
+    <div class="conteneur-flex">
+      <br><br>
+      <img src="image ia bad nr.jpg" class="image" width="950" height="650" alt="Image centrée avec flexbox" />
+    </div>
+  </div>
+
+  <!-- Tarifs -->
+  <fieldset>
+    <h1>
+      <center><mark>TARIFS</mark></center>
+      <center><img src="ia license.jpg" width="25" height="25" class="image-zoom" /></center>
+    </h1>
+    <h2>Pour la Saison 2024 / 2025</h2>
+    <div class="container">
+      <div class="card">
+        <div class="card-header">Jeunes (8-15 ans)</div>
+        <div class="card-body">
+          <p>🔴 2 SÉANCES <span class="badge jeu-libre">Jeu libre</span></p>
+          <p>🔴 1 SÉANCE <span class="badge encadre">Encadré</span></p>
+          <p>Entraînements ludiques et techniques adaptés aux plus jeunes, encadrés par nos éducateurs diplômés.</p>
+          <p><u>Prise en charge Pass Sport et Pass 76</u></p>
+          <span class="tarif">Tarif : 100€/an</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">Adultes Loisirs</div>
+        <div class="card-body">
+          <p>🔴 3 SÉANCES <span class="badge jeu-libre">Jeu libre</span></p>
+          <p>🔴 2 SÉANCES <span class="badge encadre">Encadré</span></p>
+          <p>Jeu libre dans une ambiance détendue. Idéal pour les joueurs souhaitant pratiquer sans pression.</p>
+          <span class="tarif">Tarif : 120€/an</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">Compétiteurs</div>
+        <div class="card-body">
+          <p>🔴 3 SÉANCES <span class="badge jeu-libre">Jeu libre</span></p>
+          <p>🔴 2 SÉANCES <span class="badge encadre">Encadré</span></p>
+          <p>Entraînements intensifs avec exercices techniques et tactiques pour les joueurs souhaitant progresser.</p>
+          <span class="tarif">Tarif : 120€/an</span>
+        </div>
+      </div>
+    </div>
+
+    <p><center><strong><u><mark>Famille</mark></u> : -15 €/membre à partir de la 2<sup>e</sup> inscription</strong></center></p>
+
+    <div class="contact">
+      <p>Pour tout renseignement ou inscription, s’adresser au gymnase <strong>Christian GAND</strong> aux horaires d’entraînement. (bulletin d'inscription à télécharger dans la rubrique <a href="liens.html">liens</a>)</p>
+    </div>
+  </fieldset>
+
+  <!-- Horaires d'entraînements -->
+  <section class="map-section">
+    <fieldset>
+      <h1><center><u><font size="+4">HORAIRES D'ENTRAÎNEMENTS</font></u></center></h1>
+    </fieldset><br>
+
+    <div class="container">
+      <table class="agenda-table">
+        <tr>
+          <th>Jour</th>
+          <th>Horaire & Activité</th>
+        </tr>
+        <tr>
+          <td colspan="2" class="location-header">Gymnase Christian Gand</td>
+        </tr>
+        <tr>
+          <td>Lundi</td>
+          <td>18h30 - 20h00 : Adultes loisirs (jeu libre) <span class="badge jeu-libre">Jeu libre</span></td>
+        </tr>
+        <tr>
+          <td>Lundi</td>
+          <td>20h00 - 22h00 : Adultes loisirs <span class="badge encadre">Encadré</span></td>
+        </tr>
+        <!-- Continuez ici avec le reste de votre emploi du temps -->
+      </table>
+    </div>
+  </section>
+
+</body>
+</html>
